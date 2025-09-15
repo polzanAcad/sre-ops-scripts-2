@@ -15,7 +15,7 @@ do
     #echo "Top 5 CPU-consuming processes:"
     #ps -eo pid,comm,%cpu --sort=%cpu | head -n 6
 
-    #echo "Healthcheck run at: $(date)"
+    echo "Healthcheck run at: $(date)"
 
     # Refresh every 1 second
     sleep 1
