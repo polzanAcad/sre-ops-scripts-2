@@ -11,9 +11,9 @@ do
 
     echo "CPU usage: $CPU_USAGE"
 
-    #echo ""
-    #echo "Top 5 CPU-consuming processes:"
-    #ps -eo pid,comm,%cpu --sort=%cpu | head -n 6
+    echo ""
+    echo "Top 5 CPU-consuming processes:"
+    ps -eo pid,comm,%cpu --sort=%cpu | head -n 6
 
     #echo "Healthcheck run at: $(date)"
 
